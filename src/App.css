@@ -1,7 +1,7 @@
 .container {
   border: 1px solid black;
   margin: 150px;
-  height: 500px;
+  height: 530px;
   width: 500px;
   margin-left: 350px;
   border-radius: 8px;
@@ -16,6 +16,7 @@
   font-weight: 900;
   size: 100px;
   font-family: 'Courier New', Courier, monospace;
+  margin-bottom: -2px;
 }
 .input {
   height: 20px;
@@ -38,4 +39,24 @@
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: -5px;
   font-weight: 900;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.feels {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.humidity {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
